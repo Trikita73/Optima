@@ -1,0 +1,69 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #5b5b5b; }
+
+p {
+  color: #888; }
+
+h2 {
+  color: #5b5b5b; }
+
+.color_element {
+  color: #5b5b5b; }
+
+.color_bg {
+  background-color: #5b5b5b; }
+
+.color_border {
+  border-color: #5b5b5b; }
+
+.main_color_bg {
+  background-color: #222; }
+
+svg {
+  height: 75px;
+  width: 180px;
+  z-index: 100;
+  position: relative; }
+  svg path {
+    fill: #222; }
+
+.en {
+  color: #5b5b5b; }
+
+.mnu_menu a {
+  letter-spacing: 2px; }
+
+.title_head h1 {
+  color: #c79e54; }
+
+.min_title_head h2 {
+  color: #5b5b5b; }
+
+.button_click:hover {
+  background-color: #c79e54; }
+
+.content_item {
+  background-color: #f7f5f6; }
+
+.content_item h3 {
+  color: #c79e54; }
+
+.bg_greens {
+  background-color: #f8faf9; }
+
+.text-danger {
+  color: #e72424; }
+
+form input:focus textarea:focus {
+  border: 1px solid #e72424; }
+form input:focus button {
+  background-color: #e72424;
+  border: none;
+  color: #fff; }
+
+.contact_company ul li {
+  color: #c79927; }

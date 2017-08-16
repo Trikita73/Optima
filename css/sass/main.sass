@@ -1,0 +1,335 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+section, 
+.main_head
+	position: relative
+
+.main_head 
+	min-height: 620px
+
+
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-posirion: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+.logo_container
+	float: left
+	padding-top: 25px
+
+.logo_bg 
+	background-color: #fff	
+	z-index: 100
+	padding: 10px
+	height: 125px
+	width: 202px
+	top: -25px
+	border-radius: 77%/27% 
+	position: absolute
+	box-shadow: 0 0 5px
+	  
+.mnu_menu 
+	float: right
+	z-index: 100
+	position: relative
+	ul
+		display: inline-block
+		li
+			display: inline-block
+			padding: 0 9px
+			font-size: 22px
+			font-family: "Helvetica", sans-serif
+			font-weight: normal
+			a
+				&:hover
+					transition: 0.5s ease
+					color: #c79825
+					text-decoration: underline
+
+.mnu_menu_button 
+	font-size: 29px
+	display: block
+
+ul .en
+	a
+		padding: 15px 0 0 27px
+		font-size: 23px
+		font-family: "Helvetica", sans-serif
+		font-weight: normal	
+
+.title_head,
+.min_title_head,
+.button_head
+	z-index: 50
+	position: relative
+
+
+.title_head 
+	float: right
+	margin-top: 50px
+	margin-right: 10px
+	h1
+		font-size: 41px
+		span
+			margin-left: 100px
+
+.min_title_head
+	float: right
+	padding: 0 12px
+	h2
+		font-size: 24px
+
+.button_head
+	margin-top: 65px
+	margin-right: -54px
+	float: right
+	padding: 0 230px
+
+.button_click
+	border: 3px solid #5b5b5b
+	padding: 10px
+	a
+		font-size: 22px
+		font-weight: bold
+	&:hover
+		transition: 0.5s ease
+
+section
+	padding: 60px 0	
+	h2
+		text-align: center
+		font-size: 28px
+		text-transform: uppercase
+
+.content_item 
+	overflow:hidden
+	transition: all 1s ease-out
+	&:hover
+		transform: scale(1.1)
+	img
+		width: 100%
+	h3
+		text-transform: uppercase
+		font-size: 21px
+		text-align: center
+		margin-top: 40px
+	p
+		text-align: center	
+		padding: 10px 0 30px 0
+		
+.s_servises,
+.s_company,
+.s_order
+	h2
+		margin-bottom: 50px		
+
+.left_comp
+	background-color: #fff		
+	&:hover
+		background-color: #f5f1f1
+		transition: 0.5s ease
+	.comp_img
+		text-align: center
+		img
+			width: 90%
+	h3 
+		padding: 15px
+		background-color: #c79e54	
+		text-align: center
+		font-size: 23px
+		text-transform: uppercase
+		color: #fff
+	p
+		text-align: center	
+		padding: 20px 45px 30px 45px
+
+.right_comp 
+	margin-top: 75px
+	background-color: #fff
+	&:hover
+		background-color: #f5f1f1
+		transition: 0.5s ease
+	.right_img
+		img
+			text-align: center
+			margin: 15px
+	h3 
+		padding: 15px 0
+		background-color: #c79e54	
+		text-align: center
+		font-size: 20px
+		text-transform: uppercase
+		color: #fff		
+		margin-top: 5px
+		&:hover
+			background-color: #e0be82
+			transition: 0.5s ease
+
+.section_left
+	h3
+		text-transform: uppercase	
+
+.left_two
+	margin-top: 40px
+	i
+		background-color: #a9a9a9
+		color: #fff
+		border-radius: 50%
+		padding: 9px
+	ul
+		li
+			list-style-type: none
+			margin-bottom: 10px
+			color: #a9a9a9	
+	.addres_text
+		margin-top: -44px
+		margin-left: 15px
+		margin-bottom: 30px
+
+i.fa.fa-map-marker
+	padding: 9px 10px		
+
+
+.main_form
+	button 
+		width: 100%
+		margin-top: 20px
+		background-color: #c79927
+		border: none
+		border-radius: 2px
+		padding: 10px
+		color: #fff
+		text-transform: uppercase
+		font-size: 14px
+		font-weight: 600
+		letter-spacing: 3px 
+		&:hover
+			background-color: #d0aa66
+			transition: 0.5s ease
+	textarea
+		width: 100%
+		height: 170px
+		border: none
+		background-color: #f2f2f2	
+		box-shadow: 0 0 4px rgba(0,0,0,.2) inset
+	input[type="text"],
+	input[type="email"]
+		background-color: #f2f2f2
+		border: none
+		width: 100%
+		padding: 11px
+		margin-bottom: 20px	
+		font-size: 12px
+		box-shadow: 0 0 4px rgba(0,0,0,.2) inset
+	.color_element 
+		text-transform: uppercase
+		color: #797979
+		font-weight: bold
+		font-size: 12px	
+
+.form-group
+	display: block 
+	input,
+	textarea
+		display: block
+		width: 100%
+		border: 1px solid #ccc
+		margin-top: 5px		
+		text-indent: 5px
+
+.about_news
+	background-color: #111111
+
+.join_uor
+	text-align: center
+	input[type="email"]
+		background-color: #343434
+		border: none
+		border-radius: 2px
+		padding: 12px
+		width: 40%
+	input[placeholder="email"]	
+		color: #fff
+	button
+		background-color: #c89a25
+		border: none
+		border-radius: 2px
+		padding: 12px 20px
+		color: #fff
+		font-weight: 600
+		text-transform: uppercase	
+		font-size: 13px
+		letter-spacing: 1px
+	h4
+		text-transform: uppercase	
+		color: #fff
+
+.keep_update
+	text-align: center
+	h4
+		text-transform: uppercase	
+		color: #fff		
+		margin-left: 20px
+	ul
+		display: inline-flex
+		list-style-type: none
+		margin: 0
+		padding: 0
+		li
+			margin-left: 20px
+			font-size: 28px
+			color: #fff	
+			&:hover
+				color: #c1c1c1
+				transition: 0.5s ease
+
+.main_footer
+	display: block
+	background-color: #222222
+	width: 100%
+	height: 60px
+		
+.copyright
+	p
+		margin-top: 25px	
+	.top_scroll
+		float: right	
+		margin-top: -80px
