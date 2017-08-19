@@ -1,21 +1,37 @@
-body {
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  min-width: 320px;
-  position: relative;
-  line-height: 1.42857;
-  -webkit-font-smoothing: antialised; }
+/*
+Error: Inconsistent indentation: "    \t\t" was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 108 of C:\Andrik\WORK_2017\Optima\Optima(Start)\_Optima_original\css\sass\main.sass
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red; }
+103: 
+104: .button_head
+105: 	a
+106: 		.popup_content
+107: 			padding: 20px
+108:     		border: 2px solid #5b5b5b
+109:     		font-size: 17px
+110: 
+111: .title_head 
+112: 	float: right
+113: 	margin-top: 50px
 
-body input:required:valid,
-body textarea:required:valid {
-  color: green; }
-
-.hidden {
-  display: none; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+C:\Andrik\WORK_2017\Optima\Optima(Start)\_Optima_original\css\sass\main.sass:108
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:473:in `block in tabulate'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each_with_index'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `tabulate'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files/Koala/bin/sass:18:in `load'
+C:/Program Files/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: \"    \t\t\" was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 108 of C:\Andrik\WORK_2017\Optima\Optima(Start)\_Optima_original\css\sass\main.sass\A \A 103: \A 104: .button_head\A 105: 	a\A 106: 		.popup_content\A 107: 			padding: 20px\A 108:     		border: 2px solid #5b5b5b\A 109:     		font-size: 17px\A 110: \A 111: .title_head \A 112: 	float: right\A 113: 	margin-top: 50px"; }

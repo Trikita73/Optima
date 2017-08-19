@@ -19,12 +19,12 @@
   font-weight: 600;
   src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
 @font-face {
-  font-family: "Raleway";
+  font-family: "Helvetica";
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/HelveticaNeue-Regular/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue-Regular/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue-Regular/HelveticaNeue.ttf") format("truetype"); }
 @font-face {
-  font-family: "Raleway";
+  font-family: "Helvetica";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/HelveticaRegular/Helvetica-Regular.ttf") format("truetype"); }

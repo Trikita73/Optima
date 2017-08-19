@@ -40,7 +40,6 @@ section,
     background-size: cover;
     background-repeat: no-repeat;
     background-posirion: center center;
-    background-color: #fff;
     height: 60px;
     width: 60px;
     margin-top: -30px;
@@ -54,7 +53,6 @@ section,
   padding-top: 25px; }
 
 .logo_bg {
-  background-color: #fff;
   z-index: 100;
   padding: 10px;
   height: 125px;
@@ -62,8 +60,7 @@ section,
   top: -25px;
   border-radius: 77%/27%;
   position: absolute;
-  -webkit-box-shadow: 0 0 5px;
-          box-shadow: 0 0 5px; }
+  box-shadow: 0 0 5px; }
 
 .mnu_menu {
   float: right;
@@ -79,8 +76,7 @@ section,
       font-weight: normal; }
       .mnu_menu ul li a:hover {
         -webkit-transition: 0.5s ease;
-        transition: 0.5s ease;
-        color: #c79825;
+                transition: 0.5s ease;
         text-decoration: underline; }
 
 .mnu_menu_button {
@@ -99,6 +95,21 @@ ul .en a {
   z-index: 50;
   position: relative; }
 
+.button_head {
+  margin-top: 100px;
+  float: left;
+  margin-left: 645px; }
+
+a.popup_content {
+  padding: 15px;
+  border: 2px solid #5b5b5b;
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: normal; }
+  a.popup_content:hover {
+    -webkit-transition: 0.5s;
+            transition: 0.5s; }
+
 .title_head {
   float: right;
   margin-top: 50px;
@@ -114,24 +125,8 @@ ul .en a {
   .min_title_head h2 {
     font-size: 24px; }
 
-.button_head {
-  margin-top: 65px;
-  margin-right: -54px;
-  float: right;
-  padding: 0 230px; }
-
-.button_click {
-  border: 3px solid #5b5b5b;
-  padding: 10px; }
-  .button_click a {
-    font-size: 22px;
-    font-weight: bold; }
-  .button_click:hover {
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease; }
-
 section {
-  padding: 60px 0; }
+  padding: 30px 0; }
   section h2 {
     text-align: center;
     font-size: 28px;
@@ -139,9 +134,10 @@ section {
 
 .content_item {
   -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out; }
+          transition: all 1s ease-out; }
   .content_item:hover {
     -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
             transform: scale(1.1); }
   .content_item img {
     width: 100%; }
@@ -159,49 +155,39 @@ section {
 .s_order h2 {
   margin-bottom: 50px; }
 
-.left_comp {
-  background-color: #fff; }
-  .left_comp:hover {
-    background-color: #f5f1f1;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease; }
-  .left_comp .comp_img {
-    text-align: center; }
-    .left_comp .comp_img img {
-      width: 90%; }
-  .left_comp h3 {
-    padding: 15px;
-    background-color: #c79e54;
-    text-align: center;
-    font-size: 23px;
-    text-transform: uppercase;
-    color: #fff; }
-  .left_comp p {
-    text-align: center;
-    padding: 20px 45px 30px 45px; }
+.left_comp:hover {
+  -webkit-transition: 0.5s ease;
+          transition: 0.5s ease; }
+.left_comp .comp_img {
+  text-align: center; }
+  .left_comp .comp_img img {
+    width: 90%; }
+.left_comp h3 {
+  padding: 15px;
+  text-align: center;
+  font-size: 23px;
+  text-transform: uppercase; }
+.left_comp p {
+  text-align: center;
+  padding: 20px 45px 30px 45px; }
 
 .right_comp {
-  margin-top: 75px;
-  background-color: #fff; }
+  margin-top: 75px; }
   .right_comp:hover {
-    background-color: #f5f1f1;
     -webkit-transition: 0.5s ease;
-    transition: 0.5s ease; }
+            transition: 0.5s ease; }
   .right_comp .right_img img {
     text-align: center;
     margin: 15px; }
   .right_comp h3 {
     padding: 15px 0;
-    background-color: #c79e54;
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
-    color: #fff;
     margin-top: 5px; }
     .right_comp h3:hover {
-      background-color: #e0be82;
       -webkit-transition: 0.5s ease;
-      transition: 0.5s ease; }
+              transition: 0.5s ease; }
 
 .section_left h3 {
   text-transform: uppercase; }
@@ -209,14 +195,11 @@ section {
 .left_two {
   margin-top: 40px; }
   .left_two i {
-    background-color: #a9a9a9;
-    color: #fff;
     border-radius: 50%;
     padding: 9px; }
   .left_two ul li {
     list-style-type: none;
-    margin-bottom: 10px;
-    color: #a9a9a9; }
+    margin-bottom: 10px; }
   .left_two .addres_text {
     margin-top: -44px;
     margin-left: 15px;
@@ -228,39 +211,32 @@ i.fa.fa-map-marker {
 .main_form button {
   width: 100%;
   margin-top: 20px;
-  background-color: #c79927;
   border: none;
   border-radius: 2px;
   padding: 10px;
-  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  margin-bottom: 20px; }
   .main_form button:hover {
-    background-color: #d0aa66;
     -webkit-transition: 0.5s ease;
-    transition: 0.5s ease; }
+            transition: 0.5s ease; }
 .main_form textarea {
   width: 100%;
   height: 170px;
   border: none;
-  background-color: #f2f2f2;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset;
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; }
 .main_form input[type="text"],
 .main_form input[type="email"] {
-  background-color: #f2f2f2;
   border: none;
   width: 100%;
   padding: 11px;
   margin-bottom: 20px;
   font-size: 12px;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset;
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; }
 .main_form .color_element {
   text-transform: uppercase;
-  color: #797979;
   font-weight: bold;
   font-size: 12px; }
 
@@ -275,40 +251,34 @@ i.fa.fa-map-marker {
     text-indent: 5px; }
 
 .about_news {
-  background-color: #111111; }
+  margin-top: -35px; }
 
 .join_uor {
   text-align: center; }
   .join_uor input[type="email"] {
-    background-color: #343434;
     border: none;
     border-radius: 2px;
     padding: 12px;
     width: 40%; }
-  .join_uor input[placeholder="email"] {
-    color: #fff; }
   .join_uor button {
-    background-color: #c89a25;
     border: none;
     border-radius: 2px;
     padding: 12px 20px;
-    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 1px; }
   .join_uor h4 {
-    text-transform: uppercase;
-    color: #fff; }
+    text-transform: uppercase; }
 
 .keep_update {
   text-align: center; }
   .keep_update h4 {
     text-transform: uppercase;
-    color: #fff;
     margin-left: 20px; }
   .keep_update ul {
     display: -webkit-inline-box;
+    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     list-style-type: none;
@@ -316,16 +286,13 @@ i.fa.fa-map-marker {
     padding: 0; }
     .keep_update ul li {
       margin-left: 20px;
-      font-size: 28px;
-      color: #fff; }
+      font-size: 28px; }
       .keep_update ul li:hover {
-        color: #c1c1c1;
         -webkit-transition: 0.5s ease;
-        transition: 0.5s ease; }
+                transition: 0.5s ease; }
 
 .main_footer {
   display: block;
-  background-color: #222222;
   width: 100%;
   height: 60px; }
 
@@ -333,4 +300,47 @@ i.fa.fa-map-marker {
   margin-top: 25px; }
 .copyright .top_scroll {
   float: right;
-  margin-top: -80px; }
+  margin-top: -76px; }
+  .copyright .top_scroll button.top_button {
+    border: none;
+    background: transparent;
+    border-radius: 13px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+    .copyright .top_scroll button.top_button i {
+      font-size: 40px;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      padding: 4px; }
+
+.section_map iframe {
+  width: 100%;
+  height: 250px; }
+
+.port_descr {
+  display: block;
+  width: 300px;
+  height: 237px;
+  position: absolute;
+  text-align: center;
+  float: left;
+  margin-left: 540px;
+  top: -110px; }
+  .port_descr input[type="text"] {
+    width: 80%;
+    border: none;
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    text-indent: 5px;
+    border-radius: 2px; }
+  .port_descr form button {
+    padding: 5px 10px;
+    border: none;
+    font-size: 17px;
+    text-indent: uppercase;
+    text-transform: uppercase; }

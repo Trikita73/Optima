@@ -5,6 +5,7 @@
 	<title>Заголовок</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
@@ -19,11 +20,11 @@
 </head>
 <body>
 
-<!--
+
 	<div class="loader">
 		<div class="loader_inner"></div>
 	</div> 
-	-->
+
 	
   <header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1">
 			<div class="container">
@@ -304,16 +305,16 @@
 								</svg>
 							</div>
 						</div>
-						<div class="mnu_menu">
+						<div id="mnu_menu" class="mnu_menu">
 							<button class="mnu_menu_button hidden-md hidden-lg hidden-sm">
 								<i class="fa fa-bars" aria-hidden="true"></i>
 							</button>
 							<div class="mnu_menu_fon">
 								<ul>
-									<li><a href="#">O Компании</a></li>
-									<li><a href="#">Услуги</a></li>
-									<li><a href="#">Контакты</a></li>
-									<li><a href="#">Новости</a></li>
+									<li><a href="#our_servises">Услуги</a></li>
+									<li><a href="#about_company">O Компании</a></li>
+									<li><a href="#calculation_order">Контакты</a></li>
+									<li><a href="#news_about">Новости</a></li>
 									<li class="en"><a href="#">ENGLISH</a></li>
 								</ul>
 							</div>	
@@ -323,7 +324,7 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12">>
 						<div class="title_head">
 							<h1>Транспортно - експедиционная </br><span>компания <<Оптима>></span></h1>
 						</div>
@@ -331,7 +332,7 @@
 							<h2>Перевозки грузов железнодорожным транспортом</h2>
 						</div>
 						<div class="button_head">
-							<button class="button_click"><a href="#">Заказать расчет стоимости</a></button>
+							<a href="#work_1" class="popup_content">Заказать расчет стоимости</a>
 						</div>
 					</div>
 				</div>
@@ -479,9 +480,12 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
+		 <div class="section_map">
+		 	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d162537.95717878567!2d30.569283!3d50.466138!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1502896302963" frameborder="0" style="border:0" allowfullscreen></iframe>
+		 </div>	
   </section>
-  <section class="about_news">
+  <section id="news_about" class="about_news">
   	<div class="content">
 				<div class="row">
 
@@ -534,7 +538,16 @@
 
 
 
-	<div class="hidden"></div>
+	<div class="hidden">
+		<div class="port_descr" id="work_1">
+			<h3>Заказать расчет</h3>
+			<form>
+				<input type="text" name="name" placeholder="Ваше имя..." required />
+				<input type="text" name="phone" placeholder="Ваш телефон..." required />
+				<button>Заказать</button>
+			</form>
+		</div>
+	</div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>

@@ -20,9 +20,6 @@ h2 {
 .color_border {
   border-color: #5b5b5b; }
 
-.main_color_bg {
-  background-color: #222; }
-
 svg {
   height: 75px;
   width: 180px;
@@ -44,7 +41,7 @@ svg {
   color: #5b5b5b; }
 
 .button_click:hover {
-  background-color: #c79e54; }
+  background-color: #ccc; }
 
 .content_item {
   background-color: #f7f5f6; }
@@ -67,3 +64,88 @@ form input:focus button {
 
 .contact_company ul li {
   color: #c79927; }
+
+.logo_bg {
+  background-color: #fff; }
+
+a.popup_content:hover {
+  background-color: #b7b3b3;
+  color: #fff; }
+
+.left_comp {
+  background-color: #fff; }
+  .left_comp:hover {
+    background-color: #f5f1f1; }
+  .left_comp h3 {
+    background-color: #c79e5;
+    color: #fff; }
+
+.right_comp {
+  background-color: #fff; }
+  .right_comp:hover {
+    background-color: #f5f1f1; }
+  .right_comp h3 {
+    background-color: #c79e54;
+    color: #fff; }
+    .right_comp h3:hover {
+      background-color: #e0be82; }
+
+.left_two i {
+  background-color: #a9a9a9;
+  color: #fff; }
+.left_two ul li {
+  color: #a9a9a9; }
+
+.main_form button {
+  background-color: #c79927;
+  color: #fff; }
+  .main_form button:hover {
+    background-color: #d0aa66; }
+.main_form textarea {
+  background-color: #f2f2f2; }
+.main_form input[type="text"],
+.main_form input[type="email"] {
+  background-color: #f2f2f2; }
+.main_form .color_element {
+  color: #797979; }
+
+.about_news {
+  background-color: #111111; }
+
+.join_uor {
+  text-align: center; }
+  .join_uor input[type="email"] {
+    background-color: #343434; }
+  .join_uor input[placeholder="email"] {
+    color: #fff; }
+  .join_uor button {
+    background-color: #c89a25;
+    color: #fff; }
+  .join_uor h4 {
+    color: #fff; }
+
+.keep_update h4 {
+  color: #fff; }
+.keep_update ul li {
+  color: #fff; }
+  .keep_update ul li:hover {
+    color: #c1c1c1; }
+
+.main_footer {
+  background-color: #222222; }
+
+.copyright .top_scroll button.top_button {
+  background: #222222; }
+  .copyright .top_scroll button.top_button i {
+    color: #fff; }
+
+.port_descr {
+  background-color: #fff; }
+  .port_descr h3 {
+    color: #5b5b5b; }
+  .port_descr form button {
+    background-color: #5b5b5b;
+    color: #fff; }
+
+.mnu_menu ul li a:hover {
+  color: #c79825; }

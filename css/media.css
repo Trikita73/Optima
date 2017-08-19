@@ -9,6 +9,12 @@
 	.right_comp h3 {
 		font-size: 15px;
 	}
+	.button_head {
+		margin-left: 448px;
+	}
+	.port_descr {
+		margin-left: 400px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -17,17 +23,33 @@
 		padding: 0 7px;
 		font-size: 16px;
 	}
+	.button_head {
+		margin-left: 220px;
+	}
 	ul .en a {
 		padding: 0;
 		font-size: 19px;
 	}
-	.button_click a {
-    font-size: 19px;
-  }
-  .right_comp .right_img img {
-  	margin: 0px 0px 15px 8px;
-  	width: 90%;
-  }
+	.right_comp .right_img img {
+	  	margin: 0px 0px 15px 8px;
+	  	width: 90%;
+	}
+	.title_head {
+	  	margin-top: 70px;
+	  	text-align: center;
+	  	margin-right: 0;
+	  	float: none;
+	}
+	.title_head h1 span {
+	  	margin-left: 0;
+	}
+	.min_title_head {
+		padding: 0 38px;
+		text-align: center;
+	}
+	.port_descr {
+		margin-left: 290px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -45,11 +67,12 @@
 		width: 150px;
 	}
 	.mnu_menu_button {
-		background-color: #c79825;
+		background-color: #5b5b5b;
 		border: medium none;
 		font-size: 29px;
 		margin: 10px;
 		float: right;
+		color: #fff;
 	}
 	.mnu_menu_fon {
 		position: fixed;
@@ -69,6 +92,7 @@
 	}
 	.mnu_menu ul {
 		margin-top: 90px;
+		margin-right: 55px;
 	}
 	.mnu_menu {
 		text-align: center;
@@ -82,85 +106,84 @@
 		text-decoration: none;
 	}
 	.title_head h1 {
-    font-size: 26px;
+    	font-size: 26px;
 	}
-	.title_head h1 span {
-		margin-left: 70px;
+	.min_title_head {
+		float: none;
 	}
 	.min_title_head h2 {
 		font-size: 20px;
-		width: 80%;
-		float: right;
+		width: 95%;
 		text-align: center;
-	}
-	.button_click a {
-		font-size: 16px;
-	}
-	.button_click {
-		padding: 5px;
-	}
-	.button_head {
-    padding: 0 150px;
 	}
 	.right_comp .right_img img {
 		margin: 0 0 10px 8px;
+	}
+	a.popup_content {
+		padding: 10px;
+		font-size: 16px;
+	}
+	.button_head {
+		margin: 0;
+		text-align: center;
+		float: none;
+		margin-top: 150px;
+	}
+	.port_descr {
+		margin-left: 100px;
 	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.title_head h1 {
-    font-size: 26px;
+    	font-size: 26px;
 	}
 		.title_head h1 {
-    font-size: 16px;
-	}
-	.title_head h1 span {
-		margin-left: 50px;
+    	font-size: 16px;
 	}
 	.min_title_head h2 {
  		font-size: 15px;
+ 		width: 100%;
 	}
-	.button_head {
-    padding: 0 10px;
-    margin-right: 30px;
-  }
-  .min_title_head h2 {
-		width: 100%;
-  } 
-  .right_comp h3 {
-  	font-size: 13px;
-  }
-  .right_comp .right_img img {
-  	margin: 0 0 5px 5px;
-  }
+	.right_comp h3 {
+		font-size: 13px;
+	}
+	.right_comp .right_img img {
+		margin: 0 0 5px 5px;
+	}
+	a.popup_content {
+    	padding: 9px;
+    	font-size: 14px;
+	}
+	.port_descr {
+		margin-left: 0;
+	}
+
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.logo_bg {
-    height: 80px;
-    width: 113px;
+    	height: 80px;
+    	width: 113px;
 	}
 	#svg18 {
-    width: 70px;
-    margin: -23px 11px 0;
+    	width: 70px;
+    	margin: -23px 11px 0;
 	}
 	.mnu_menu_button {
 		font-size: 25px;
 		margin-top: 5px;
 	}
-	.min_title_head {
-    margin-right: 45px;
-	}
 	.min_title_head h2 {
 		width: 100%;
   } 
   .right_comp h3 {
-  	font-size: 11px;
+  		font-size: 11px;
   }
   .right_comp .right_img img {
-  	margin: 0 0 0 4px;
+  		margin: 0 0 0 4px;
   }
 
 }
