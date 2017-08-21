@@ -286,7 +286,8 @@ i.fa.fa-map-marker {
     padding: 0; }
     .keep_update ul li {
       margin-left: 20px;
-      font-size: 28px; }
+      font-size: 28px;
+      cursor: pointer; }
       .keep_update ul li:hover {
         -webkit-transition: 0.5s ease;
                 transition: 0.5s ease; }
